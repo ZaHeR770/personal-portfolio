@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio</title>
+
+  <!-- Google Font: Cairo -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 4.7 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="top-title">
+      <h1>Personal Portfolio Page Wireframe</h1>
+      <p class="top-link"></p>
+    </div>
+
+    <div class="header-card">
+      <div class="brand">
+        <h2>Mahmoud Zaher</h2>
+        <p>Network Technical Support</p>
+      </div>
+
+      <nav class="site-nav" aria-label="Main">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section about">
+      <span class="section-tag">About Me</span>
+
+      <div class="about-inner">
+        <figure class="about-photo">
+          <img src="images/profile.jpg" alt="Profile photo" />
+        </figure>
+
+        <div class="about-text">
+          <h3>About Me</h3>
+          <p>
+            Network, Computer, and E-Learning Technical Support at Northern Border University, Kingdom of Saudi Arabia.
+            Network, Computer, and E-Learning Technical Support at Northern Border University, Kingdom of Saudi Arabia.
+            Network, Computer, and E-Learning Technical Support at Northern Border University, Kingdom of Saudi Arabia.
+            Network, Computer, and E-Learning Technical Support at Northern Border University, Kingdom of Saudi Arabia.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills">
+      <span class="section-tag">Skills</span>
+
+      <h3>Skills</h3>
+      <div class="skills-grid">
+        <article class="skill-card">HTML</article>
+        <article class="skill-card">CSS</article>
+        <article class="skill-card">Flexbox</article>
+        <article class="skill-card">Responsive Design</article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <span class="section-tag">Contact Me</span>
+
+      <h3>Contact</h3>
+
+      <form class="contact-form">
+        <div class="row">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="your@email.com" required />
+          </label>
+
+          <label class="field">
+            <span>Message</span>
+            <input type="text" name="subject" placeholder="Subject..." />
+          </label>
+        </div>
+
+        <label class="field full">
+          <span>Message</span>
+          <textarea name="message" rows="6" placeholder="Write your message..." required></textarea>
+        </label>
+
+        <button type="submit" class="btn-send">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-card">
+      <div class="footer-empty"></div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Mahmoud Zaher</p>
+
+        <div class="social" aria-label="Social links">
+          <a class="social-btn" href="#" aria-label="Facebook">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a class="social-btn" href="#" aria-label="LinkedIn">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a class="social-btn" href="#" aria-label="GitHub">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+          <a class="social-btn" href="#" aria-label="YouTube">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
